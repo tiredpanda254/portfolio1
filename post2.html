@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Post Name</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+		.img-container{
+			max-width: 600px;
+		}
+
+		img{
+			width: 100%
+		}
+
+	</style>
+</head>
+<body>
+	<div class="nav-wrapper">
+
+		<!-- Link around dots-wrapper added after tutorial video -->
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id ='dot-2' class="browser-dot"></div>
+                <div id ='dot-3' class="browser-dot"></div>
+			</div>
+		</a>
+
+		
+	</div>
+
+	<div class="main-container">
+		<br>
+        <h3>Responsive Redesign: Reimagining the Yale School of Arts Website</h3>
+		<h4>Overview</h4>
+		<p>
+			The goal of this project is to identify and analyze flaws in an existing interface, create low-fidelity  and high-fidelity prototypes for various screen sizes,and build a responsive website based on the prototypes.
+		</p>
+
+		<h4>Identifying Usability Problems</h4>
+       <p>
+		
+        <br>
+		For my project, I am redesigning the Yale School of Arts website.The website has a generally overwhelming layout,  and for a website that is frequented by most, this presents  a confusing user journey to  a wide variety of users, including those that frequent the site.
+		<br>
+		At first glance , a lot of information is represented to the user with a lot of background distraction that makes it hard to decipher what the website is all about.
+
+        <br>
+		Visit <a href ='https://www.art.yale.edu/'>Yale School of Arts </a> to access the school of arts' original website.
+	
+		<br>
+		<div class = 'img-container'>
+			<img src ='images/yale.png'>
+		</div>
+
+
+	   </p>
+        <h4>Finding Problems</h4>
+		<p>
+			1.The webpage presents a navigation problem since the menu is not clearly identifiable to a new user. This presents a confusing user journey when attempting to navigate to different pages. 
+			This could potentially be solved by having a menu icon that is more memorable to a user.
+			<br>
+			2.The inconsistent layout and the background graphics are generally overwhelming and distracting to the user. The background graphics present readability challenges to the user.
+			For new users, the inconsistent layout makes it difficult to know where to get specific information when they want.The inconsistency in layout makes it difficult to identify what segments are news and which ones are not. 
+			<br>
+			3. The overall visual design of the page is lacking in appeal and aesthetics as information is not organized neatly.
+			<br>
+			4.Information presented in the community bulletin to provide an overview of the page can be overwhelming to a user since it is not simplified
+
+		</p>
+		<h4>Accessibility</h4>
+		<p>
+			I tested the page on WebAIM WAVE to detect possible accessibility flaws.WebAIM WAVE detected long alternative text on the community bulletin board, in addition to long description texts for the images. 
+			The long texts definitely overwhelm a user once they land on the page. The page also had multiple redundant links that only made the page cluttered. This can be offset by having all the relevant links in one menu.
+
+		</p>
+
+		<h4>Visual Redesign</h4>
+		<h6>Low-fi prototyping</h6>
+		<p>
+			Based on the problems described above, I created low-fidelity prototypes mimicking desktop, iPad and phone screen sizes as my first step in the redesign process.
+            <br>
+			Below are the wireframes from my lo-fi prototypes addressing the usability problems: 
+             <br>
+			 
+			<div class = 'img-container'>
+				<img src = 'images/lowfi1.png'>
+			</div>
+			<br>
+			<div class = 'img-container'>
+				<img src = 'images/lowfi2.png'>
+			</div>
+			<br>
+			<div class = 'img-container'>
+				<img src = 'images/lowfi3.png'>
+			</div>
+		</p>
+
+		<h4>Visual Design Style Guide</h4>
+		<p>
+			To guide my high -fidelity prototyping, I began by preparing a visual design style guide. This guide contains information about the color palette, the typography ,and the reusable components' different states on the website.  
+
+		</p>
+		<br>
+		<div class="img-container">
+			<img src="images/style.png">
+		</div>
+
+		<h4>High-fidelity prototyping</h4>
+		<p>
+			For the hi-fi prototyping, I decided to organize the elements in flexboxes.The header and the first paragraph are in different flexboxes and so is the body.
+			The body is one big flexbox containing the different sections of news, represented by images in my prototype.For my redesign, there is no need to adjust font sizes in between the different screen sizes as the initial font size is very adaptable on all three options of screen sizes.
+			Upon clicking the Read More News button, more sections of news unravel .The purpose of the button is to initially prevent endless scrolling and therefore prevent a user from getting overwhelmed. 
+		</p>
+		<h6>Prototypes</h6>
+		<h8>Macbook</h8>
+		<div class="img-container">
+			<img src="images/hifi1.png">
+		</div>
+		<h8>iPad</h8>
+		<div class = 'img-container'>
+			<img src ='images/hifi2.png'>
+		</div>
+		<h8> iPhone</h8>
+		<div class = 'img-container'>
+			<img src ='images/hifi3.png'>
+	</div>
+	   <h4>Responsive Redesign</h4>
+	   <p>
+		Using the final high-fidelity prototypes, I recreated the page using HTML and CSS! I replaced buttons and navigational elements using dummy elements.
+        <br>
+		Below is a preview of the website:
+
+		<div class ='img-container'>
+			<img src ='images/preview.png'>
+		</div>
+		<br>
+	    
+	   </p>
+	   <p>
+		   View the new Yale School of Arts' news page on  <a href ='https://tiredpanda254.github.io/Webpage'>New Yale Webpage!</a> 
+	   </p>
+
+	   
+    </div>
+
+</body>
+</html>
